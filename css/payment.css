@@ -1,0 +1,167 @@
+body {
+  background-color: black;
+  font-family: sans-serif;
+  background-image: url("../Image/Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#logo1 {
+  width: 250px;
+  height: 77px;
+}
+
+.logo_container {
+  margin: 0 auto;
+}
+
+.logo_container img {
+  display: block;
+  margin: 0 auto;
+}
+
+#pay {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 130px;
+}
+
+.footer1 ul {
+  text-align: right;
+  list-style: none;
+  padding: 0;
+  margin: 39px 50px 7px;
+}
+
+.footer1 ul li {
+  float: none;
+  display: inline-block;
+}
+
+.footertext {
+  color: #ffa500;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sociallink1,
+.sociallink2 {
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid #ffa500;
+  border-radius: 10px;
+  color: #ffa500;
+}
+
+.sociallink1:hover {
+  color: #1a6ed8;
+  background-color: white;
+}
+
+.sociallink2:hover {
+  color: #eb0cb7;
+  background-color: white;
+}
+
+.container {
+  backdrop-filter: blur(20px);
+  max-width: 800px;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #ffa500;
+  border-radius: 10px;
+  margin: 50px auto 0;
+  padding: 0.5rem 1.5rem;
+}
+
+form {
+  padding: 1rem;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #ffa500;
+  font-weight: bold;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  margin: 0.5rem 0;
+  border: 3px solid #ffa500;
+  border-radius: 5px;
+}
+
+select {
+  border: 3px solid #ffa500;
+  border-radius: 5px;
+}
+
+form input[type="number"] {
+  border: 3px solid #ffa500;
+  border-radius: 5px;
+}
+
+#zip {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+#zip select {
+  padding: 0.5rem 0.7rem;
+}
+
+#zip input[type="number"] {
+  padding: 0.5rem 0.7rem;
+  margin-left: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 0.7rem 1.5rem;
+  background: #34495e;
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #2c3e50;
+}
+
+#submit1 {
+  text-align: center;
+  margin: 5px;
+  border: 3px solid #ffa500;
+  background-color: rgba(255, 165, 0, 1);
+  border-radius: 25px;
+  padding: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#submit1:hover {
+  cursor: pointer;
+}
+
+form {
+  color: #ffa500;
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    flex-direction: column;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
