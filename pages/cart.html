@@ -5,11 +5,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping Cart</title>
-    <link rel="icon" href="../IMAGE/final logo.png" />
-    <link rel="stylesheet" href="../CSS/Home.css" />
-    <link rel="stylesheet" href="../CSS/Cart.css" />
-    <script type="text/javascript" src="../JS/Category.js"></script>
-    <script type="text/javascript" src="../JS/Cart.js"></script>
+    <link rel="icon" href="../assets/icon.png" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+    <script type="text/javascript" src="../js/navigatetopage.js"></script>
+    <script type="text/javascript" src="../js/cart.js"></script>
   </head>
 
   <body>
@@ -18,22 +18,22 @@
       <div class="navigationlink">
         <div class="navigationlinkL">
           <div><a href="../index.html" class="navigationlink1">Home</a></div>
-          <div><a href="About.html" class="navigationlink1">About</a></div>
+          <div><a href="./about.html" class="navigationlink1">About</a></div>
           <div>
-            <a href="Services.html" class="navigationlink1">Services</a>
+            <a href="./services.html" class="navigationlink1">Services</a>
           </div>
-          <div><a href="Contact.html" class="navigationlink1">Contact</a></div>
+          <div><a href="./contact.html" class="navigationlink1">Contact</a></div>
         </div>
 
         <div class="navbar2">
           <a href="../index.html"
-            ><img src="../IMAGE/sample logo 2.png" alt="logo" id="logo1"
+            ><img src="../assets/logo.png" alt="logo" id="logo1"
           /></a>
         </div>
 
         <div class="navigationlinkR">
           <div>
-            <a href="Login.html" target="_blank" class="navigationlink2">
+            <a href="./login.html" target="_blank" class="navigationlink2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -51,7 +51,7 @@
             </a>
           </div>
           <div>
-            <a href="Cart.html" class="navigationlink2">
+            <a href="./cart.html" class="navigationlink2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -96,11 +96,11 @@
               <div class="subtotal-display">
                 <div id="subtotal-container"></div>
               </div>
-              <div id="payment" onclick="navigatetopage('Payment.html')">
+              <div id="payment" onclick="navigatetopage('./payment.html')">
                 <span id="paymenttext"> pay </span>>
               </div>
               <div class="paymentoption">
-                <img src="../IMAGE/KOKO.png" alt="koko" />
+                <img src="../assets/koko.png" alt="koko" />
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@
           <div class="reset">
             <button id="reset-cart" type="button">Reset Cart</button>
 
-            <script type="text/javascript" src="../JS/Cartreset.js"></script>
+            <script type="text/javascript" src="../js/cartreset.js"></script>
           </div>
         </div>
       </div>
