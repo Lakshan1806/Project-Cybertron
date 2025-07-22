@@ -1,0 +1,46 @@
+.abouttext {
+  color: white;
+  margin: 0px 60px;
+  font-family: sans-serif;
+}
+
+.para {
+  text-align: justify;
+}
+
+.logo2 {
+  margin: 0 auto;
+}
+
+.logo2 img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container1 {
+  flex-direction: column;
+}
+
+.aboutus {
+  color: #ffa500;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #4d5353;
+}
